@@ -7,7 +7,7 @@ pipeline {
 
     tools {
         // Specify the exact Maven version you want to use
-        maven 'Maven-3.9.3'
+        maven 'M2_HOME'
     }
 
    
