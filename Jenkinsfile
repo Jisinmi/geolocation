@@ -7,14 +7,10 @@ pipeline {
 
     tools {
         // Specify the exact Maven version you want to use
-        maven 'Maven-3.8.1'
+        maven 'Maven-3.9.3'
     }
 
-    triggers {
-        // Poll SCM every minute
-        pollSCM '* * * * *'
-    }
-
+   
     stages {
         stage('Checkout') {
             steps {
