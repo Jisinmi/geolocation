@@ -1,6 +1,7 @@
 pipeline {
-     agent any
-     tools {
+     agent {
+          docker { image 'okteto/maven:3' }
+     tools { 
   maven 'M2_HOME'
 }
 
