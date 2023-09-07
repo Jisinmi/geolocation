@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'okteto/maven:3'
+            image 'maven:3.9.3-openjdk-17'
         }
     }
 
